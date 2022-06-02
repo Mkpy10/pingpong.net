@@ -1,0 +1,21 @@
+
+.heading_div{
+    width: 100%;
+    text-align: left;
+
+}
+
+.heading_div h3{
+    display: inline;
+
+}
+
+.heading_div button{
+    float: right;
+    border: 1px solid white;
+}
+
+
+#play_btn, #status{
+    font-size: 22px;
+}
