@@ -19,3 +19,10 @@
 #play_btn, #status{
     font-size: 22px;
 }
+
+h4{
+    background-color: cyan;
+    line-height: 2;
+    margin: 0px;
+    font-weight: bold;
+}

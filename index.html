@@ -19,10 +19,41 @@
             <div class="btn btn-primary heading_div">
                 <h3>AI Ping Pong</h3>
                 <button class="btn btn-primary" data-toggle="modal" data-target="#heading_btn">Insturctions</button>
-              </div> <br><br>
+              </div>
+              <h4>
+                Creator Account : <a href="https://github.com/mkpy10">Mrinank</a> Game Credits: Mrinank Pandey
+            </h4>
+              
               <button class="btn btn-success" onclick="startGame()" id="play_btn">Play Game</button><br><br>
+              <button class="btn btn-warning" onclick="restart()" id="restart_btn">Restart</button><br><br>
+              
               <h3 id="status" class="btn btn-warning"></h3><br><br>
               <div id="canvas"></div>
+
+
+
+              
+             
+
+              <div id="heading_btn" class="modal fade">
+                  <div class="modal-dialog">
+                      <div class="modal-content">
+                          <div class="modal-header">
+                              <button class="close" data-dismiss="modal">&times;</button>
+                              <h4>Instructions</h4>
+                          </div>
+                          <div class="modal-body">
+                              <ol>
+                                  <li>Use Your Cursor to move the paddle</li>
+                                  <li>Use The Paddle To Hit The Ball Back</li>
+                                  <li>If Anyone wins 4 times the game will end</li>
+                                  <li>The Speed Of The Ball Increases Everytime It Is Hit, by 0.5</li>
+                              </ol>
+                          </div>
+                      </div>
+                  </div>
+              </div> 
+              
         </center>
 
         <script src="main.js"></script>
