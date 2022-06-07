@@ -26,3 +26,8 @@ h4{
     margin: 0px;
     font-weight: bold;
 }
+
+canvas{
+    box-shadow: 5px 5px 5px solid white;
+    border-radius: 10px;
+}
